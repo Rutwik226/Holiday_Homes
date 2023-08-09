@@ -378,6 +378,9 @@ h3{
     .contact-form, .contact-details{
         width:50%;
     }
+    .nav-menu{
+        flex-wrap: wrap;
+    }
 }
 @media(max-width:768px){
     .blog-images .img-container{
@@ -390,6 +393,32 @@ h3{
     .contact-form, .contact-details{
         width:100%;
     }
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-info{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .room-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .room-row{
+        flex-direction: column;
+    }
+    .room-row > div[class|='room']{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .room-details {
+        position: static;
+        top: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
 }
 .cl-reg{
     color: red;
